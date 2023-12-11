@@ -3,7 +3,7 @@
 function palindrome(str){
 let cleanedStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
 let reverse = cleanedStr.split('').reverse().join('');
-	if(reverse == str){
+	if(reverse == cleanedstr){
 		return true;
 	}
 	else
